@@ -1,0 +1,1423 @@
+@using Kendo.Mvc.UI;
+
+@using DPP.Interfaces;
+
+@using DPP.Utility;
+
+@using DPP.Resources;
+
+@using DPP.Models.DemandAnalysis;
+
+@using DPP.Models;
+
+
+
+@*@model DPP.Models.PageViewModel*@
+
+
+
+@{
+    var user = User as CustomPrincipal; 
+}
+
+
+
+@model DPP.Models.DemandAnalysis.supplierchartdataModel
+
+
+
+<script type="text/javascript">
+
+    var ChartData = [];
+
+    function BackMenu() {
+
+        $("[data-menuid=80]:first").trigger("click")
+
+    }
+
+    function OptimizeMenu() {
+
+        $("[data-menuid=96]:first").trigger("click")
+
+    }
+
+    function EditMenu() {
+
+        $("[data-menuid=94]:first").trigger("click")
+
+    }
+
+    function GetDPPMateriaModelSearchCriteria() {
+
+        refreshAntiForgeryToken();
+
+        return {
+
+            materialId: materialID, plantid: plantID, materialobj: materialobj, supplierdata: supplierobject
+
+            , __RequestVerificationToken: kendo.antiForgeryTokens().__RequestVerificationToken
+
+        };
+
+    };
+
+
+
+    getForcastChartdata();
+
+    historicalChart();
+
+    function materialChartData() {
+
+        var chartData = $("#Materialchart").data("kendoChart");
+
+        chartData.options.valueAxis.title.text = "USD/" + materialUOM
+
+    @* console.log("MaterialchartData ===>", chartData);
+
+        console.log("MaterialchartData ===>", materialUOM); *@
+
+
+
+    }
+
+    function highcharts(data, dateData) {
+
+        console.log("inside highchart function==>", data)
+
+        Highcharts.chart('container', {
+
+
+
+            title: {
+
+                text: "Sabic Historical Prices"
+
+            },
+
+            yAxis: {
+
+                title: {
+
+                    text: "USD/" + materialUOM
+
+                }
+
+            },
+
+
+
+            xAxis: {
+
+                categories: dateData
+
+            },
+
+            legend: {
+
+                layout: 'horizontal',
+
+                align: 'center',
+
+                verticalAlign: 'bottom'
+
+            },
+
+
+
+            plotOptions: {
+
+                series: {
+
+                    label: {
+
+                        connectorAllowed: false
+
+                    },
+
+                }
+
+            },
+
+            series: data,
+
+            responsive: {
+
+                rules: [{
+
+                    condition: {
+
+                        maxWidth: 500
+
+                    },
+
+                    chartOptions: {
+
+                        legend: {
+
+                            layout: 'horizontal',
+
+                            align: 'center',
+
+                            verticalAlign: 'bottom'
+
+                        }
+
+                    }
+
+                }]
+
+            }
+
+
+
+        });
+
+    }
+
+    // highcharts()
+
+
+
+    function historicalChart() {
+
+        var formurl = '@Url.Action("getMaterialChart", "DemandAnalysis")';
+
+        var vendor = $('#Vendor').val();
+
+        var country = $('#Country').val();
+
+
+    @*
+        console.log("Country===>", country)
+
+        console.log("vendor===>", vendor) *@
+
+
+
+
+
+            things = JSON.stringify({
+
+                materialId: materialID, plantid: plantID, materialobj: materialobj,
+
+                supplierdata: supplierobject, vendor: vendor, country: country, __RequestVerificationToken: kendo.antiForgeryTokens().__RequestVerificationToken
+
+            });
+
+        $.ajax({
+
+            url: formurl,
+
+            type: "POST",
+
+            contentType: 'application/json; charset=utf-8',
+
+            processData: false,
+
+            dataType: 'json',
+
+            data: things,
+
+            success: function (data) {
+
+                var allAverage = data.map(d => d.avrageResult)
+
+                var dateData = data.map(date => date.Categories);
+
+                obj = {
+
+                    name: 'Average',
+
+                    data: allAverage
+
+                }
+
+                ChartData.push(obj)
+
+                console.log("ChartData===>", ChartData)
+
+                console.log("dateData===>", dateData)
+
+                highcharts(ChartData, dateData);
+
+                refreshAntiForgeryToken();
+
+            },
+
+            error: function (i) {
+
+                ShowKendoNotification("@CommonResource.ErrorMsg", "error");
+
+            }
+
+        });
+
+    }
+
+
+
+    function createChart() {
+
+        Highcharts.chart('supplierChart', {
+
+            title: {
+
+                text: "Forecasted Supplier Price Trend"
+
+            },
+
+            yAxis: {
+
+                title: {
+
+                    text: "USD/" + materialUOM
+
+                }
+
+            },
+
+
+
+            xAxis: {
+
+                categories: CategoriesChartData
+
+            },
+
+            legend: {
+
+                layout: 'horizontal',
+
+                align: 'center',
+
+                verticalAlign: 'bottom'
+
+            },
+
+
+
+            plotOptions: {
+
+                series: {
+
+                    label: {
+
+                        connectorAllowed: false
+
+                    },
+
+                    pointStart: 2010
+
+                }
+
+            },
+
+            series: SeriesChartData,
+
+            responsive: {
+
+                rules: [{
+
+                    condition: {
+
+                        maxWidth: 500
+
+                    },
+
+                    chartOptions: {
+
+                        legend: {
+
+                            layout: 'horizontal',
+
+                            align: 'center',
+
+                            verticalAlign: 'bottom'
+
+                        }
+
+                    }
+
+                }]
+
+            }
+
+
+
+        });
+
+    }
+
+    $(document).bind("kendo:skinChange", createChart);
+
+
+
+    function getForcastChartdata() {
+
+        var formurl = '@Url.Action("getForcastChart", "DemandAnalysis")';
+
+        things = JSON.stringify({ materialobj: materialobj, supplierdata: supplierobject, __RequestVerificationToken: kendo.antiForgeryTokens().__RequestVerificationToken });
+
+        $.ajax({
+
+            url: formurl,
+
+            type: "POST",
+
+            contentType: 'application/json; charset=utf-8',
+
+            processData: false,
+
+            dataType: 'json',
+
+            data: things,
+
+            success: function (data) {
+
+                CategoriesChartData = data.Categories;
+
+                SeriesChartData = [];
+
+                if (forcastedData.length > 0) {
+
+                    for (let i = 0; i < forcastedData.length; i++) {
+
+                        //console.log("forcastedData[i].Name====>", forcastedData[i].Name)
+
+                        SeriesChartData.push({
+
+                            data: [forcastedData[i].Nov, forcastedData[i].Dec, forcastedData[i].JAN, forcastedData[i].FEB, forcastedData[i].MARCH],
+
+                            name: forcastedData[i].Name
+
+                        })
+
+                    }
+
+                } else {
+
+                    for (let i = 0; i < data.Series.length; i++) {
+
+                        // console.log("data.Series[i].name", data.Series[i].name)
+
+
+
+                        SeriesChartData.push({
+
+                            data: data.Series[i].avrageResult,
+
+                            name: data.Series[i].name
+
+                        })
+
+                    }
+
+                }
+
+                createChart();
+
+                refreshAntiForgeryToken();
+
+            },
+
+            error: function (i) {
+
+                ShowKendoNotification("@CommonResource.ErrorMsg", "error");
+
+            }
+
+        });
+
+    }
+
+
+
+    function plantDataHandler(e) {
+
+        let data = e.sender
+
+        if (plantData.length == 0) {
+
+            plantData = data._pristineData
+
+        }
+
+        // console.log("plantData ===>", plantData)
+
+    }
+
+
+
+    function PurchaseRequisitionsHandler(e) {
+
+        let data = e.sender
+
+        if (purchaseRequisitionsDatasoure.length == 0) {
+
+            purchaseRequisitionsDatasoure = data._pristineData
+
+        }
+
+
+
+    }
+
+
+
+    function supplierAvgDataHandler(e) {
+
+        let data = e.sender
+
+        if (supplierAvgData.length == 0) {
+
+            supplierAvgData = data._pristineData
+
+        }
+
+        //console.log("supplierAvgData ===>", supplierAvgData)
+
+
+
+    }
+
+</script>
+
+
+
+
+
+
+
+<!-- Screen-5 -->
+
+<div class="text-left h5 pl-3 mt-4">@DPPResource.MaterialInformationTableHeading</div>
+
+<div class="container-fluid mar-top-15 padding-0">
+
+    <div class="row margin-0">
+
+        <div class="col-md-12" id="ResultDiv" customId="Result Data">
+
+            <div id="divGrid">
+
+                @Html.AntiForgeryToken()
+
+                @(Html.Kendo().Grid<MateriaModel>()
+
+                .Name("gridMateriaModel")
+
+                .NoRecords(KendoGridExtention.NoRecords)
+
+                .Columns(columns =>
+
+                {
+
+                if (user.IsEnglish) // Other changes relatd to language etc... in progress
+
+                {
+
+                columns.Bound(c => c.materialID).Title(DPPResource.ColMaterialNumber).Filterable(false).Width("12%"); ;
+
+                columns.Bound(c => c.type).Title(DPPResource.ColType).Filterable(false).Width("10%");
+
+                columns.Bound(c => c.Description).Title(DPPResource.ColDescription).Filterable(false).Width("41%");
+
+                columns.Bound(c => c.Group).Title(DPPResource.ColGroup).Filterable(false).Width("12%");
+
+                columns.Bound(c => c.CLass).Title(DPPResource.ColClass).Filterable(false).Width("15%");
+
+                columns.Bound(c => c.Criticality).Title(DPPResource.ColCriticality).Filterable(false).Width("10%");
+
+                }
+
+                else
+
+                {
+
+                columns.Bound(c => c.materialID).Title(DPPResource.ColMaterialNumber).Filterable(false).Width("12%"); ;
+
+                columns.Bound(c => c.type).Title(DPPResource.ColType).Filterable(false).Width("10%");
+
+                columns.Bound(c => c.Description).Title(DPPResource.ColDescription).Filterable(false).Width("41%");
+
+                columns.Bound(c => c.Group).Title(DPPResource.ColGroup).Filterable(false).Width("12%");
+
+                columns.Bound(c => c.CLass).Title(DPPResource.ColClass).Filterable(false).Width("15%");
+
+                columns.Bound(c => c.Criticality).Title(DPPResource.ColCriticality).Filterable(false).Width("10%");
+
+                }
+
+                })
+
+                .HtmlAttributes(new { @class = "grid-height grid100" })
+
+                .Scrollable()
+
+                .Selectable(selectable => selectable.Mode(GridSelectionMode.Single)
+
+                .Type(GridSelectionType.Row)
+
+
+
+                )
+
+                .DataSource(dataSource => dataSource.Ajax().ServerOperation(false)
+
+                .Model(model => {model.Id(c => c.materialID);
+
+                })
+
+                .Read(read => read.Action("GetMaterialOptimizationData",
+                "DemandAnalysis").Type(HttpVerbs.Post).Data("GetDPPMateriaModelSearchCriteria"))
+
+                )
+
+                )
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="text-left h5 pl-3 mt-5">@DPPResource.PlantDataTableHeading <small>@DPPResource.Quantity</small> - <span
+        id="PlantValue"></span> </div>
+
+<div class="container-fluid mar-top-15 padding-0">
+
+    <div class="row margin-0">
+
+        <div class="col-md-12" id="ResultDiv" customId="Result Data">
+
+            <div id="divGrid">
+
+                @(Html.Kendo().Grid<PlantModel>()
+
+                .Name("gridPlantModel")
+
+                .NoRecords(KendoGridExtention.NoRecords)
+
+                .Columns(columns =>
+
+                {
+
+                if (user.IsEnglish) // Other changes relatd to language etc... in progress
+
+                {
+
+                columns.Bound(c => c.WarehouseCapacity).Title(DPPResource.ColWarehouseCapacity_Tons_).Filterable(false);
+
+                columns.Bound(c => c.SaftyStock).Title(DPPResource.ColSafetyStock).Filterable(false);
+
+                columns.Bound(c => c.CLosingStock).Title(DPPResource.ColClosingStock).Filterable(false);
+
+
+
+                }
+
+                else
+
+                {
+
+                columns.Bound(c => c.WarehouseCapacity).Title(DPPResource.ColWarehouseCapacity_Tons_).Filterable(false);
+
+                columns.Bound(c => c.SaftyStock).Title(DPPResource.ColSafetyStock).Filterable(false);
+
+                columns.Bound(c => c.CLosingStock).Title(DPPResource.ColClosingStock).Filterable(false);
+
+
+
+                }
+
+                })
+
+                .HtmlAttributes(new { @class = "grid-height grid100" })
+
+                .Scrollable()
+
+                .Selectable(selectable => selectable.Mode(GridSelectionMode.Single)
+
+                .Type(GridSelectionType.Row)
+
+
+
+                )
+
+                .DataSource(dataSource => dataSource.Ajax().ServerOperation(false)
+
+                .Events(events => events.RequestStart("plantDataHandler"))
+
+                .Model(model => {model.Id(c => c.SaftyStock);
+
+                })
+
+                .Read(read => read.Action("GetPlantData",
+                "DemandAnalysis").Type(HttpVerbs.Post).Data("GetDPPMateriaModelSearchCriteria"))
+
+                )
+
+                )
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="container-fluid mar-top-15 padding-0">
+
+    <div class="row margin-0">
+
+        <div class="col-md-12" id="ResultDiv" customId="Result Data">
+
+            <div id="divGrid1">
+
+                @(Html.Kendo().Grid<PeriodModel>()
+
+                .Name("gridPurchaseRequisitions")
+
+                .NoRecords(KendoGridExtention.NoRecords)
+
+                .Columns(columns =>
+
+                {
+
+                if (user.IsEnglish) // Other changes relatd to language etc... in progress
+
+                {
+
+
+
+                columns.Bound(c => c.Period).Title(DPPResource.ColDemandDetails).Filterable(false);
+
+                columns.Bound(x => x.Month1).Title(DateTime.Now.ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month2).Title(DateTime.Now.AddMonths(1).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month3).Title(DateTime.Now.AddMonths(2).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month4).Title(DateTime.Now.AddMonths(3).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month5).Title(DateTime.Now.AddMonths(4).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month6).Title(DateTime.Now.AddMonths(5).ToString("MMM yy")).Filterable(false);
+
+                }
+
+                else
+
+                {
+
+                columns.Bound(c => c.Period).Title(DPPResource.ColDemandDetails).Filterable(false);
+
+                columns.Bound(x => x.Month1).Title(DateTime.Now.ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month2).Title(DateTime.Now.AddMonths(1).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month3).Title(DateTime.Now.AddMonths(2).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month4).Title(DateTime.Now.AddMonths(3).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month5).Title(DateTime.Now.AddMonths(4).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month6).Title(DateTime.Now.AddMonths(5).ToString("MMM yy")).Filterable(false);
+
+                }
+
+                })
+
+                .HtmlAttributes(new { @class = "grid-height grid150" })
+
+                .Scrollable()
+
+                .Selectable(selectable => selectable.Mode(GridSelectionMode.Single)
+
+                .Type(GridSelectionType.Row)
+
+                )
+
+                .DataSource(dataSource => dataSource.Ajax().ServerOperation(false)
+
+                .Events(events => events.RequestStart("PurchaseRequisitionsHandler"))
+
+
+
+                .Model(model =>
+
+                {
+
+                model.Id(c => c.Period);
+
+                })
+
+                .Read(read => read.Action("GetPeriodData",
+                "DemandAnalysis").Type(HttpVerbs.Post).Data("GetDPPMateriaModelSearchCriteria"))
+
+                .PageSize(10)
+
+                )
+
+                )
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="text-left h5 pl-3 mt-5 pt-3">@DPPResource.ForecastedPriceTableHeading1 <small>@DPPResource.AmountUSD</small>
+    @DPPResource.ForecastedPriceTableHeading2</div>
+
+<div class="container-fluid mar-top-15 padding-0">
+
+    <div class="row margin-0">
+
+        <div class="col-md-12" id="ResultDiv" customId="Result Data">
+
+            <div id="divGrid2">
+
+                @(Html.Kendo().Grid<SupplierModel>()
+
+                .Name("gridSupplierModel")
+
+                .NoRecords(KendoGridExtention.NoRecords)
+
+                .Columns(columns =>
+
+                {
+
+                if (user.IsEnglish) // Other changes relatd to language etc... in progress
+
+                {
+
+                columns.Bound(c => c.Name).Title(DPPResource.ColSupplierName).Filterable(false);
+
+                columns.Bound(x => x.Nov).Title(DateTime.Now.ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Dec).Title(DateTime.Now.AddMonths(1).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.JAN).Title(DateTime.Now.AddMonths(2).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.FEB).Title(DateTime.Now.AddMonths(3).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.MARCH).Title(DateTime.Now.AddMonths(4).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.APRIL).Title(DateTime.Now.AddMonths(5).ToString("MMM yy")).Filterable(false);
+
+                }
+
+                else
+
+                {
+
+                columns.Bound(c => c.Name).Title(DPPResource.ColSupplierName).Filterable(false);
+
+                columns.Bound(x => x.Nov).Title(DateTime.Now.ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Dec).Title(DateTime.Now.AddMonths(1).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.JAN).Title(DateTime.Now.AddMonths(2).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.FEB).Title(DateTime.Now.AddMonths(3).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.MARCH).Title(DateTime.Now.AddMonths(4).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.APRIL).Title(DateTime.Now.AddMonths(5).ToString("MMM yy")).Filterable(false);
+
+                }
+
+                })
+
+                .HtmlAttributes(new { @class = "grid-height gridMin100" })
+
+                .Selectable(selectable => selectable.Mode(GridSelectionMode.Single)
+
+                .Type(GridSelectionType.Row)
+
+                )
+
+                .DataSource(dataSource => dataSource.Ajax()
+
+                .Events(events => events.RequestStart("supplierAvgDataHandler"))
+
+                .ServerOperation(false)
+
+                .Model(model =>
+
+                {
+
+                model.Id(c => c.Name);
+
+                })
+
+                .Read(read => read.Action("SupplierDataModelForcast",
+                "DemandAnalysis").Type(HttpVerbs.Post).Data("GetDPPMateriaModelSearchCriteria"))
+
+                .PageSize(10)
+
+                )
+
+                )
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<div class="text-left h5 pl-3 mt-5 pt-3">@DPPResource.CostDriverTableHeading1 </div>
+
+<div class="container-fluid mar-top-15 padding-0">
+
+    <div class="row margin-0">
+
+        <div class="col-md-12" id="ResultDiv" customId="Result Data">
+
+            <div id="divGrid1">
+
+                @(Html.Kendo().Grid<CostDriverOutputModel>()
+
+                .Name("gridCostDriverAccuracy")
+
+                .NoRecords(KendoGridExtention.NoRecords)
+
+                .Columns(columns =>
+
+                {
+
+                if (user.IsEnglish) // Other changes relatd to language etc... in progress
+
+                {
+
+
+
+                columns.Bound(c => c.CostDriver).Title(DPPResource.CostDriverAccuracyLabel).Filterable(false);
+
+                columns.Bound(c => c.series).Title(DPPResource.SeriesAccuracyLabel).Filterable(false);
+
+                columns.Bound(x => x.Month1).Title(DateTime.Now.ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month2).Title(DateTime.Now.AddMonths(1).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month3).Title(DateTime.Now.AddMonths(2).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month4).Title(DateTime.Now.AddMonths(3).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month5).Title(DateTime.Now.AddMonths(4).ToString("MMM yy")).Filterable(false);
+
+                columns.Bound(x => x.Month6).Title(DateTime.Now.AddMonths(5).ToString("MMM yy")).Filterable(false);
+
+                }
+
+
+
+                })
+
+                .HtmlAttributes(new { @class = "grid-height gridMin100" })
+
+                .Scrollable()
+
+                .Selectable(selectable => selectable.Mode(GridSelectionMode.Single)
+
+                .Type(GridSelectionType.Row)
+
+                )
+
+                .DataSource(dataSource => dataSource.Ajax().ServerOperation(false)
+
+                .Events(events => events.RequestStart("PurchaseRequisitionsHandler"))
+
+
+
+                .Model(model =>
+
+                {
+
+                model.Id(c => c.series);
+
+                })
+
+                .Read(read => read.Action("GetCostDriverOutputData",
+                "DemandAnalysis").Type(HttpVerbs.Post).Data("GetDPPMateriaModelSearchCriteria"))
+
+                .PageSize(10)
+
+                )
+
+                )
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+@*<div class="container-fluid mar-top-15 padding-0 mt-5">
+
+    <div class="row margin-0">
+
+    <div class="col-6">
+
+    <div class="demo-section k-content wide">
+
+    @(Html.Kendo().Chart<supplierChartModel2>()
+
+    .Name("Materialchart")
+
+    .Title(DPPResource.ChartHistoricalPricesTitle)
+
+    .Legend(legend => legend
+
+    .Position(ChartLegendPosition.Bottom)
+
+    )
+
+    .DataSource(ds => ds.Read(read => read.Action("getMaterialChart", "DemandAnalysis")
+
+    .Type(HttpVerbs.Post).Data("GetDPPMateriaModelSearchCriteria")))
+
+    .Series(series =>
+
+    {
+
+    series.Line(m => m.avrageResult).Name(DPPResource.AverageChartName);
+
+    })
+
+    .CategoryAxis(axis => axis
+
+    .Categories(m => m.Categories
+
+    )
+
+    .MajorGridLines(lines => lines.Visible(false))
+
+    )
+
+    .ValueAxis(axis => axis
+
+    .Numeric()
+
+    // .Title("USD/")
+
+    )
+
+    .Tooltip(tooltip => tooltip
+
+    .Visible(true)
+
+    .Format("{0}")
+
+    )
+
+    .Events(e=>e.DataBound("materialChartData"))
+
+    )
+
+    </div>
+
+    </div>
+
+
+
+    <div class="col-6">
+
+    <div class="demo-section k-content wide" id="forcastChart">
+
+    </div>
+
+    </div>
+
+
+
+
+
+    </div>
+
+
+
+    </div>*@
+
+<div class="row">
+
+    <div class="col-12 col-md-6 col-lg-4">
+
+        @Html.AntiForgeryToken()
+
+        @Html.Label("Country", null, new { @class = "focus-input100" })
+
+        @(Html.Kendo().DropDownList()
+
+
+
+        .Name("Country")
+
+        .Filter("startswith")
+
+        .OptionLabel("Select Country")
+
+        //.Placeholder("Select Cost Driver...")
+
+        .DataSource(source =>
+
+        {
+
+        source.Read(read =>
+
+        {
+
+        read.Action("GetCountryMultiDropDown", "DemandAnalysis").Type(HttpVerbs.Post)
+
+        .Data("GetDPPMateriaModelSearchCriteria");
+
+        })
+
+        .ServerFiltering(true);
+
+        })
+
+        //.Events(e => e.Select("select"))
+
+
+
+        .HtmlAttributes(new { @class = "input1001", })
+
+        )
+
+    </div>
+
+
+
+    <div class="col-12 col-md-6 col-lg-4">
+
+        @Html.AntiForgeryToken()
+
+        @Html.Label("Vendor", null, new { @class = "focus-input100" })
+
+        @(Html.Kendo().DropDownList()
+
+
+
+        .Name("Vendor")
+
+        .Filter("startswith")
+
+        .OptionLabel("Select Vendor")
+
+        //.Placeholder("Select Cost Driver...")
+
+        .DataSource(source =>
+
+        {
+
+        source.Read(read =>
+
+        {
+
+        read.Action("GetVendorMultiDropDown", "DemandAnalysis").Type(HttpVerbs.Post)
+
+        .Data("GetDPPMateriaModelSearchCriteria");
+
+        })
+
+        .ServerFiltering(true);
+
+        })
+
+        //.Events(e => e.Select("select"))
+
+
+
+        .HtmlAttributes(new { @class = "input1001", })
+
+        )
+
+    </div>
+
+</div>
+
+
+
+<div class="wrap-input100 validate-input text-right">
+
+    <button type="button" class="ent-primary-btn-cyan mar-left-20" id="btnMlProcess"
+        onclick="historicalChart();">@ManageDisclaimerResource.Btn_Submit</button>
+
+</div>
+
+
+
+<figure class="highcharts-figure">
+
+    <div id="container"></div>
+
+</figure>
+
+
+
+<figure class="highcharts-figure">
+
+    <div id="supplierChart"></div>
+
+</figure>
+
+
+
+<div class="col-12">
+
+    <div class="wrap-input100 validate-input text-right">
+
+        <button class="btn-secondary-ent AjaxCall" onclick="BackMenu();" id="forrecastmenu" href=''
+            data-dismiss="modal">@DPPResource.btnBack</button>
+
+        <button class="ent-primary-btn-cyan mar-left-20 AjaxCall" onclick="OptimizeMenu();" id="forrecastmenu" href=''
+            data-dismiss="modal">@DPPResource.btnOptimize</button>
+
+        <button class="ent-primary-btn-cyan mar-left-20 AjaxCall" onclick="EditMenu();" id="forrecastmenu" href=''
+            data-dismiss="modal">@DPPResource.btnEdit</button>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+
+
+
+
+
+
+
+
+
+
+
+    var chartData = [{
+
+        name: 'Installation',
+
+        data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
+
+    }]
+
+    var initialData = [{
+
+        name: 'Installation',
+
+        data: []
+
+    }]
+
+
+
+
+
+
+
+    function setPlantModelData() {
+
+        //console.log("plantData dataSource ===>", plantData)
+
+        if (plantData.length > 0) {
+
+            let dataSource = new kendo.data.DataSource({
+
+                data: plantData
+
+            });
+
+            let grid = $("#gridPlantModel").data("kendoGrid");
+
+            grid.setDataSource(dataSource);
+
+        }
+
+    }
+
+    function setSupplierModelData() {
+
+        //console.log("plantData dataSource ===>", supplierDataModel)
+
+        if (supplierDataModel.length > 0) {
+
+            let optimizedata = supplierDataModel.filter(function (s) { return s.TimePeriod == "Forecasted Price" })
+
+            forcastedData = []
+
+            for (let i = 0; i < optimizedata.length; i++) {
+
+
+
+                forcastedData.push({
+
+                    Name: optimizedata[i].SupplierName,
+
+                    OptimizeName: optimizedata[i].TimePeriod,
+
+                    Nov: optimizedata[i].Month1,
+
+                    Dec: optimizedata[i].Month2,
+
+                    JAN: optimizedata[i].Month3,
+
+                    FEB: optimizedata[i].Month4,
+
+                    MARCH: optimizedata[i].Month5,
+
+                    APRIL: optimizedata[i].Month6,
+
+                })
+
+            }
+
+            //console.log("forcastedData dataSource ===>", forcastedData)
+
+            let dataSource = new kendo.data.DataSource({
+
+                data: forcastedData
+
+            });
+
+            let grid = $("#gridSupplierModel").data("kendoGrid");
+
+            grid.setDataSource(dataSource);
+
+        }
+
+    }
+
+    function setPurchaseRequisitionsData() {
+
+        //console.log("purchaseRequisitionsDatasoure dataSource ===>", purchaseRequisitionsDatasoure)
+
+        if (purchaseRequisitionsDatasoure.length > 0) {
+
+            let dataSource = new kendo.data.DataSource({
+
+                data: purchaseRequisitionsDatasoure
+
+            });
+
+            let grid = $("#gridPurchaseRequisitions").data("kendoGrid");
+
+            grid.setDataSource(dataSource);
+
+        }
+
+    }
+
+    setPlantModelData()
+
+    setSupplierModelData()
+
+    setPurchaseRequisitionsData()
+
+
+
+    $(function () {
+
+        var gridSupplierModelDatasoure = $("#gridSupplierModel").data().kendoGrid.dataSource;
+
+        gridSupplierModelDatasoure.fetch(function () {
+
+            //supplierAvgData = gridSupplierModelDatasoure.view();
+
+            //console.log("supplierAvgData on 5======>", gridSupplierModelDatasoure.view())
+
+        })
+
+
+
+
+
+        var gridPurchaseRequisitionsDatasoure = $("#gridPurchaseRequisitions").data().kendoGrid.dataSource;
+
+        gridPurchaseRequisitionsDatasoure.fetch(function () {
+
+            //purchaseRequisitionsDatasoure = gridPurchaseRequisitionsDatasoure.view();
+
+            //console.log("purchaseRequisitionsDatasoure on 5======>", gridPurchaseRequisitionsDatasoure.view())
+
+        })
+
+
+
+
+
+        var gridPlantModeldatasoure = $("#gridPlantModel").data().kendoGrid.dataSource;
+
+        gridPlantModeldatasoure.fetch(function () {
+
+            //plantData = gridPlantModeldatasoure.view();
+
+            //let data = gridPlantModeldatasoure.view()
+
+            //console.log("plantData on 5======>", data)
+
+        })
+
+    })
+
+
+
+    $(document.getElementById("PlantValue").innerHTML = plantID)
+
+
+
+
+
+</script>

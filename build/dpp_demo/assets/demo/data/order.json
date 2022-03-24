@@ -1,0 +1,3 @@
+{
+    "order": ["material_name", "percentile_of_monthly_returns", "serial_name", "key", "date", "actual_values", "frequency", "weekly_returns", "percentile_of_weekly_returns", "monthly_returns"]
+}

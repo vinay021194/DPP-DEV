@@ -1,0 +1,6927 @@
+{
+    "Sheet2": [
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/5/06",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/30/06",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/30/07",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/31/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/28/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/4/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/30/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/31/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/30/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/1/07",
+            "unit_price_usd": "5.005",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/31/07",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/31/08",
+            "unit_price_usd": "5.338",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/3/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/31/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/1/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/3/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/31/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/6/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/8/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/19/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/30/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/31/09",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/26/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/30/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/25/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/30/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/23/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/30/09",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/31/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/30/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/30/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/25/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/23/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/29/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/13/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/31/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/7/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/24/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/28/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/15/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/31/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/11/10",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/25/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/30/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/31/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/28/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/1/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/24/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/31/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/30/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/12/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/31/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/21/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/28/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/11/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/31/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/19/11",
+            "unit_price_usd": "8.03",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/27/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/28/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/13/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/28/11",
+            "unit_price_usd": "7.865",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/5/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/30/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/14/11",
+            "unit_price_usd": "7.865",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/15/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/31/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/22/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/26/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/31/11",
+            "unit_price_usd": "7.836667",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/23/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/31/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/13/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/21/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/30/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/24/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/29/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/31/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/18/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/22/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/24/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/18/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/22/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/29/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/7/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/31/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/28/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/27/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/30/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/17/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/31/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/5/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/22/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/30/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/16/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/22/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/31/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/28/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/29/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/31/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/12/13",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/31/13",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/19/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/25/13",
+            "unit_price_usd": "8.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/30/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/31/13",
+            "unit_price_usd": "8.34",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/28/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/30/13",
+            "unit_price_usd": "7.77",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/30/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/31/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/3/13",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/13",
+            "unit_price_usd": "7.583333",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/31/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/31/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/30/13",
+            "unit_price_usd": "7.745",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/31/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/29/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/30/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/25/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/31/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/30/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/31/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/28/14",
+            "unit_price_usd": "8.29",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/30/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/31/14",
+            "unit_price_usd": "7.925",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/30/14",
+            "unit_price_usd": "6.633333",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/14",
+            "unit_price_usd": "6.895",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/14/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/21/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/4/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/14/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/22/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/28/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/31/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/12/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/23/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/16/14",
+            "unit_price_usd": "6",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/6/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/8/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/27/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/19/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/28/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/15/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/13/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/21/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/3/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/28/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/3/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/6/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/16/15",
+            "unit_price_usd": "6",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/6/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/20/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/13/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/13/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/25/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/29/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/16/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/20/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/21/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/10/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/14/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/28/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/31/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/28/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/7/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/20/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/3/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/6/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/23/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/5/16",
+            "unit_price_usd": "5.71",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/11/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/31/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/2/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/24/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/7/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/27/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/24/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/31/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/20/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/30/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/5/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/6/16",
+            "unit_price_usd": "583.34",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/22/16",
+            "unit_price_usd": "233.34",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/26/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/12/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/23/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/6/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/9/17",
+            "unit_price_usd": "350",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/15/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/26/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/14/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/23/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/2/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/9/17",
+            "unit_price_usd": "350",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/11/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/15/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/20/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/21/17",
+            "unit_price_usd": "350",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/18/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/23/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/15/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/21/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/18/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/28/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/4/17",
+            "unit_price_usd": "350",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/8/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/26/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/14/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/22/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/19/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/2/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/22/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/11/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/20/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/22/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/25/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/25/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/26/18",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/2/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/20/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/21/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/23/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/18/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/31/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/16/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/2/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/20/18",
+            "unit_price_usd": "177.35",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/4/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/11/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/25/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/31/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/14/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/10/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/18/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/24/18",
+            "unit_price_usd": "350",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/12/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/14/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/31/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/14/19",
+            "unit_price_usd": "350",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/18/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/25/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/13/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/9/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/25/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/12/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/29/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/30/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/19/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/30/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/17/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/24/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/31/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/20/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/25/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/29/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/25/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/30/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/24/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/17/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "11/28/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "12/15/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/22/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "1/23/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "2/23/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/22/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/30/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "3/31/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/23/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "4/28/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/7/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "5/31/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/25/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "6/28/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/16/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "7/20/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/17/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/19/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "8/30/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/27/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "9/28/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/18/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/27/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "posting_date": "10/29/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/4/05",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/8/05",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/11/05",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/11/05",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/21/05",
+            "unit_price_usd": "3.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/10/05",
+            "unit_price_usd": "4.91",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/8/05",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/11/05",
+            "unit_price_usd": "4.91",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/5/05",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/18/05",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/22/05",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/13/05",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/7/05",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/29/06",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/26/06",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/13/06",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/28/06",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/6/06",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/18/06",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/19/06",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/23/06",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/22/06",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/7/06",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/12/06",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/12/06",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/24/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/29/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/10/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/31/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/8/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/30/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/9/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/10/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/30/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/29/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/25/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/25/07",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/23/07",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/7/07",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/9/07",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/31/07",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/22/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/9/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/7/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/30/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/20/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/4/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/17/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/6/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/12/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/26/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/22/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/13/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/12/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/28/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/24/09",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/4/09",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/21/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/23/09",
+            "unit_price_usd": "8.19",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/8/09",
+            "unit_price_usd": "8.19",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/5/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/3/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/6/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/3/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/18/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/19/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/13/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/8/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/22/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/21/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/11/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/9/10",
+            "unit_price_usd": "8.19",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/10/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/29/10",
+            "unit_price_usd": "8.04",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/28/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/18/10",
+            "unit_price_usd": "7.8",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/21/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/20/10",
+            "unit_price_usd": "7.19",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/17/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/5/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/28/10",
+            "unit_price_usd": "7.47",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/3/10",
+            "unit_price_usd": "8.23",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/24/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/15/10",
+            "unit_price_usd": "7.74",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/28/11",
+            "unit_price_usd": "7.75",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/13/11",
+            "unit_price_usd": "7.75",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/26/11",
+            "unit_price_usd": "7.75",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/9/11",
+            "unit_price_usd": "7.75",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/7/11",
+            "unit_price_usd": "7.75",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/13/11",
+            "unit_price_usd": "7.75",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/20/11",
+            "unit_price_usd": "7.75",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/15/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/21/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/23/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/18/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/13/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/25/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/18/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/12/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/4/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/8/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/26/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/30/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/22/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/29/12",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/18/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/17/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/8/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/18/12",
+            "unit_price_usd": "8.24",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/26/12",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/9/13",
+            "unit_price_usd": "8.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/26/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/17/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/7/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/18/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/22/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/18/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/15/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/31/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/16/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/30/13",
+            "unit_price_usd": "8.33",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/30/13",
+            "unit_price_usd": "8.33",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/26/13",
+            "unit_price_usd": "8.33",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/16/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/31/13",
+            "unit_price_usd": "7.765",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/31/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/12/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/11/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/9/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/30/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/12/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/29/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/19/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/14/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/7/14",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/28/14",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/18/14",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/29/14",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/4/14",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/26/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/24/14",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/11/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/26/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/1/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/31/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/30/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/17/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/11/15",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/22/15",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/30/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/16/15",
+            "unit_price_usd": "3.95",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/31/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/9/15",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/13/15",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/27/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/30/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/27/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/26/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/17/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/13/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/31/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/4/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/12/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/9/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/30/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/26/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/29/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/28/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/6/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/10/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/25/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/22/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/19/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/4/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/26/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/22/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/5/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/30/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/23/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/5/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/27/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/23/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/11/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/4/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/31/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/23/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/21/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/7/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/30/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/15/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/18/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/12/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/26/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/20/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/10/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/30/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/31/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/22/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/1/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/17/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/4/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/26/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/18/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/7/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/24/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/17/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/14/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/4/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/7/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/13/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/23/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/28/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/27/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/11/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/1/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/28/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/29/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/20/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/12/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/26/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "12/29/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "1/21/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "2/16/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "3/10/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/4/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "4/28/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "5/20/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "6/16/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "7/8/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "8/16/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "9/2/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/1/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "10/21/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "posting_date": "11/4/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/19/08",
+            "unit_price_usd": "7.98",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/19/09",
+            "unit_price_usd": "7.98",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/26/09",
+            "unit_price_usd": "7.98",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "7/19/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/3/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/17/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/20/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/30/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "4/20/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "5/23/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "6/28/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "7/20/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/8/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/25/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/5/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/7/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/25/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/26/11",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/15/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "4/2/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "4/24/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "5/17/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "6/4/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "7/3/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "7/19/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "7/25/11",
+            "unit_price_usd": "7.98",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/10/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/14/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/21/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/26/11",
+            "unit_price_usd": "8.34",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "10/2/11",
+            "unit_price_usd": "8.25",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "10/11/11",
+            "unit_price_usd": "8.34",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "10/30/11",
+            "unit_price_usd": "8.34",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/4/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/3/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/28/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/6/12",
+            "unit_price_usd": "8",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "4/8/12",
+            "unit_price_usd": "8.14",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "4/28/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "5/15/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "6/24/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "7/17/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/7/12",
+            "unit_price_usd": "8",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/28/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/2/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/24/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/3/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/21/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/15/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/29/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/14/13",
+            "unit_price_usd": "7.12",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "2/2/13",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "2/27/13",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/6/13",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/10/13",
+            "unit_price_usd": "7.12",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "4/16/13",
+            "unit_price_usd": "7.12",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "4/21/13",
+            "unit_price_usd": "7.12",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "5/8/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "5/27/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "6/16/13",
+            "unit_price_usd": "7.12",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "7/18/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/12/13",
+            "unit_price_usd": "7.12",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/29/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/6/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/10/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/23/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "2/26/14",
+            "unit_price_usd": "7.16",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/5/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/18/14",
+            "unit_price_usd": "7.12",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "6/2/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/12/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/13/14",
+            "unit_price_usd": "7.12",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/4/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/16/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "10/23/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/30/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/17/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/26/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "2/26/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/24/15",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "5/29/15",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "6/3/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/2/15",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/11/15",
+            "unit_price_usd": "5.566667",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/23/15",
+            "unit_price_usd": "5.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "10/15/15",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/7/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "2/4/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/31/16",
+            "unit_price_usd": "5.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "4/3/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "5/10/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "6/23/16",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/18/16",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/18/16",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "10/5/16",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/30/16",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "2/13/17",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "2/20/17",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/30/17",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "6/18/17",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "7/19/17",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "10/5/17",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "10/22/17",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/12/17",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/29/17",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/3/17",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/18/17",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/2/18",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "2/7/18",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "4/3/18",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "4/10/18",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "5/29/18",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "6/3/18",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "7/30/18",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/31/18",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/30/18",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/27/18",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/9/19",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/13/19",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "4/22/19",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/24/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "10/20/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "12/30/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/8/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "1/30/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "2/19/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "3/30/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "5/6/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "7/8/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "7/10/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "8/9/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "9/20/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "10/5/20",
+            "unit_price_usd": "4.39",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "10/15/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/2/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "posting_date": "11/16/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "9/4/06",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/7/06",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/7/06",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/17/06",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/6/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "3/13/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/30/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "6/4/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "7/8/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/15/07",
+            "unit_price_usd": "3.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/6/07",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/21/07",
+            "unit_price_usd": "5.05",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/11/07",
+            "unit_price_usd": "4.91",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/12/08",
+            "unit_price_usd": "4.91",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "3/15/08",
+            "unit_price_usd": "4.98",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/28/08",
+            "unit_price_usd": "4.98",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "6/9/08",
+            "unit_price_usd": "4.98",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/25/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/27/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/12/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/20/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/21/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/24/09",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/28/09",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/7/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/11/09",
+            "unit_price_usd": "6.69",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "6/14/09",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "7/22/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/26/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/3/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/31/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/3/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/6/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/16/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/21/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "3/23/10",
+            "unit_price_usd": "8.04",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/4/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "6/9/10",
+            "unit_price_usd": "7.24",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "7/10/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/30/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "9/19/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/13/10",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/21/10",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/29/10",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/14/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "3/6/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/16/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/22/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "6/21/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "7/24/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/25/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "9/28/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/26/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/27/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/25/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/7/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/21/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/22/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "3/31/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/23/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/27/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "6/27/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/5/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "9/4/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/7/12",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/5/12",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/11/12",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/9/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/11/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/20/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/17/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "6/11/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "7/16/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/18/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "9/29/13",
+            "unit_price_usd": "8.26",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/13/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/24/13",
+            "unit_price_usd": "8.34",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/7/14",
+            "unit_price_usd": "8.34",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/21/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/18/14",
+            "unit_price_usd": "8.77",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/10/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/18/14",
+            "unit_price_usd": "8.75",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "7/9/14",
+            "unit_price_usd": "6",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "9/7/14",
+            "unit_price_usd": "6",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/12/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/5/14",
+            "unit_price_usd": "6",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/7/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/8/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/10/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/17/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "3/24/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/28/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "6/24/15",
+            "unit_price_usd": "6",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/18/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/12/15",
+            "unit_price_usd": "6",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/29/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/30/15",
+            "unit_price_usd": "6",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/28/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/29/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/5/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/12/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/16/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "6/29/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/29/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "9/22/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/24/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/18/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/25/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/17/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/21/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/10/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/31/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "7/12/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/21/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "9/24/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/30/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/30/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/18/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/30/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "3/6/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "3/28/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/23/18",
+            "unit_price_usd": "6",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/29/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/31/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "6/29/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "7/25/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/28/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "9/27/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/25/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/27/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/30/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/23/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/27/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/3/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/5/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/28/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "7/2/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "7/31/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "9/12/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/24/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "11/27/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "12/31/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/30/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/29/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "3/31/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "4/28/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/28/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "7/9/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "8/31/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "9/30/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "10/31/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "1/26/21",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "2/28/21",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "3/17/21",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "3/31/21",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "posting_date": "5/6/21",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/31/04",
+            "unit_price_usd": "6.1",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/11/04",
+            "unit_price_usd": "4.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/29/04",
+            "unit_price_usd": "4.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/8/04",
+            "unit_price_usd": "4.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/25/04",
+            "unit_price_usd": "4.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/22/04",
+            "unit_price_usd": "4.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/28/05",
+            "unit_price_usd": "3.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/9/05",
+            "unit_price_usd": "3.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/12/05",
+            "unit_price_usd": "3.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/4/05",
+            "unit_price_usd": "3.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "9/27/05",
+            "unit_price_usd": "3.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "11/30/05",
+            "unit_price_usd": "3.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/31/05",
+            "unit_price_usd": "3.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/6/06",
+            "unit_price_usd": "3.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/26/06",
+            "unit_price_usd": "3.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/5/06",
+            "unit_price_usd": "3.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "9/19/06",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/19/06",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/25/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/14/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/24/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "7/11/07",
+            "unit_price_usd": "4.45",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/22/07",
+            "unit_price_usd": "4.68",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "11/21/07",
+            "unit_price_usd": "4.68",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "11/30/07",
+            "unit_price_usd": "4.68",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/16/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/27/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/14/08",
+            "unit_price_usd": "5.56",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/23/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/31/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/25/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/25/08",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/5/09",
+            "unit_price_usd": "6.67",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/16/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/14/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/24/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/5/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/23/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/31/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "11/16/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/14/09",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/27/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/17/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/26/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/29/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "7/10/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/10/10",
+            "unit_price_usd": "7.78",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/15/10",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/9/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/16/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/26/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/28/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/26/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/24/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/15/11",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "7/4/11",
+            "unit_price_usd": "7.86",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/14/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "9/6/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/11/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/31/11",
+            "unit_price_usd": "8.61",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/12/11",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/29/11",
+            "unit_price_usd": "8.61",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/16/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/20/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/27/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/30/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/5/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/19/12",
+            "unit_price_usd": "7.3",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/21/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/7/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/20/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/22/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "11/22/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/11/12",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/13/13",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/26/13",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/9/13",
+            "unit_price_usd": "8.28",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/15/13",
+            "unit_price_usd": "8.37",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/18/13",
+            "unit_price_usd": "8.33",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/27/13",
+            "unit_price_usd": "8.33",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/30/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "7/7/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/8/13",
+            "unit_price_usd": "8.33",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "9/5/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "9/24/13",
+            "unit_price_usd": "8.26",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "11/5/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/9/13",
+            "unit_price_usd": "8.34",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/18/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/25/13",
+            "unit_price_usd": "8.34",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/26/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/28/14",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/3/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/16/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/13/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/3/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/14/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/18/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/23/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/5/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/11/14",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "9/11/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/16/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/22/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "11/25/14",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/15/14",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/5/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/9/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/11/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/30/15",
+            "unit_price_usd": "5.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/3/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/26/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "7/12/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/8/15",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/5/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/2/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/9/15",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/16/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/17/16",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/30/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/15/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/16/16",
+            "unit_price_usd": "5.5",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/19/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "7/14/16",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "7/24/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "9/4/16",
+            "unit_price_usd": "8.33",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "9/25/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/17/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/5/16",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/21/16",
+            "unit_price_usd": "5.9",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/28/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/26/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/25/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "7/2/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/21/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "9/6/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/24/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "11/20/17",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/11/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/22/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/3/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/8/18",
+            "unit_price_usd": "5.92",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/30/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "7/3/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/15/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/9/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "11/6/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "11/11/18",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/22/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/5/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/17/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/15/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/16/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/23/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/22/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "9/8/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/15/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/3/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "12/23/19",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/27/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/23/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/31/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "5/23/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "6/9/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "8/9/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "9/15/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "10/15/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "11/15/20",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "1/24/21",
+            "unit_price_usd": "100",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "2/3/21",
+            "unit_price_usd": "100",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "3/23/21",
+            "unit_price_usd": "100",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "posting_date": "4/27/21",
+            "unit_price_usd": "4.7",
+            "material_uom": "KG"
+        },
+        {
+            "material": "7001733",
+            "plant": "4100",
+            "posting_date": "3/26/13",
+            "unit_price_usd": "7.2",
+            "material_uom": "KG"
+        }
+    ]
+}

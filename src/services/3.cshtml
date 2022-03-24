@@ -1,0 +1,817 @@
+@using Kendo.Mvc.UI;
+
+@using DPP.Interfaces;
+
+@using DPP.Utility;
+
+@using DPP.Resources;
+
+
+
+@using DPP.Models.DemandAnalysis;
+
+@using DPP.Models;
+
+
+
+@*@model DPP.Models.PageViewModel*@
+
+
+
+@{
+
+    var user = User as CustomPrincipal;
+
+}
+
+
+
+@model IEnumerable<DPP.Models.DemandAnalysis.MateriaModel>
+
+
+
+<script type='text/javascript' src='@System.Configuration.ConfigurationManager.AppSettings.Get("TableauJS")'></script>
+
+<script>
+
+    var SeriesChartData = [];
+
+    var dayeData = [];
+
+    var timeInterwal = "";
+
+    function createChart() {
+
+        Highcharts.chart('alertChart', {
+
+            chart: {
+
+                zoomType: 'x'
+
+            },
+
+            title: {
+
+                text: "Alert Analysis"
+
+            },
+
+            yAxis: {
+
+                title: {
+
+                    text: "Actual Values"
+
+                }
+
+            },
+
+
+
+            xAxis: {
+
+                type: 'datetime',
+
+                title: {
+
+                    text: "Dates"
+
+                }
+
+            },
+
+            plotOptions: {
+
+                spline: {
+
+                    marker: {
+
+                        radius: 0
+
+                    }
+
+                }
+
+            },
+
+            legend: {
+
+                layout: 'horizontal',
+
+                align: 'center',
+
+                verticalAlign: 'bottom'
+
+            },
+
+            tooltip: {
+
+                //layout: 'horizontal',
+
+                //align: 'center',
+
+                //verticalAlign: 'bottom',
+
+                valueDecimals: 2,
+
+                formatter: function () {
+
+                    var timeInterwal = $("#chart").val();
+
+                    console.log("timeInterwal ===>", timeInterwal)
+
+                    var chart = timeInterwal == "Weekly" ? 'Weekly Returns :  <b>' + this.point.weeklyReturn + '</b>' : 'Monthly Returns :  <b>' + this.point.monthly_returns + '</b>'
+
+                    var Percentile = timeInterwal == "Weekly" ? ' </br> Percentile of Weekly Returns :  <b>' +
+
+                        this.point.weeklyPercentageReturn + '</b> ' : ' </br> Percentile of Monthly Returns :  <b>' +
+
+                        this.point.mothlyPercentageReturn + '</b> '
+
+                    return 'Date of Date (Icis Alert info) : ' + new Date(this.x).toUTCString() + ' </br> Actual Values :  <b>'
+
+                        + this.y + '</b> </br>' + chart + Percentile
+
+                }
+
+            },
+
+
+
+
+
+            series: SeriesChartData,
+
+            responsive: {
+
+                rules: [{
+
+                    condition: {
+
+                        maxWidth: 500
+
+                    },
+
+                    chartOptions: {
+
+                        legend: {
+
+                            layout: 'horizontal',
+
+                            align: 'center',
+
+                            verticalAlign: 'bottom'
+
+                        }
+
+                    }
+
+                }]
+
+            }
+
+
+
+        });
+
+    }
+
+    // $(document).bind("kendo:skinChange", createChart);
+
+
+
+    function onTimeSelect(e) {
+
+        console.log("eee=>", e.dataItem.Value)
+
+        timeInterwal = e.dataItem.Value;
+
+    }
+
+
+
+    function getForcastChartdata() {
+
+        var material = $("#materialId").val();
+
+        var series = $("#SeriesName").val();
+
+        var startingDate = $("#startingDate").val();
+
+        var endDate = $("#endDate").val();
+
+        var chartType = $("#chart").val();
+
+        var formurl = '@Url.Action("getAlertAnalysisChart", "DemandAnalysis")';
+
+        things = JSON.stringify({
+
+            material: material, series: series, startingDate: startingDate,
+
+            endDate: endDate, timeInterwal: timeInterwal, __RequestVerificationToken: kendo.antiForgeryTokens().__RequestVerificationToken
+
+        });
+
+        $.ajax({
+
+            url: formurl,
+
+            type: "POST",
+
+            contentType: 'application/json; charset=utf-8',
+
+            processData: false,
+
+            dataType: 'json',
+
+            data: things,
+
+            success: function (data) {
+
+                console.log("data===>", data)
+
+                var actualvalues = data.map(d => {
+
+                    var date = d.dayofdate.split(",")
+
+                    var yyyy = Number(date[0])
+
+                    var mm = Number(date[1]) - 1
+
+                    var dd = Number(date[2])
+
+                    var dataObj = {}
+
+
+
+                    if (chartType === "Weekly") {
+
+
+
+                        if (d.weeklyPercentageReturn > 0.98 || d.weeklyPercentageReturn < 0.02 && d.weeklyPercentageReturn !== 0) {
+
+                            return {
+
+                                x: Date.UTC(yyyy, mm, dd),
+
+                                y: d.actualValues,
+
+                                monthly_returns: d.monthly_returns,
+
+                                mothlyPercentageReturn: d.monthlyPercentageReturn,
+
+                                weeklyPercentageReturn: d.weeklyPercentageReturn,
+
+                                weeklyReturn: d.weeklyReturn,
+
+                                marker: {
+
+                                    symbol: 'diamond',
+
+                                    radius: 10,
+
+                                    fillColor: 'orange'
+
+                                }
+
+                            }
+
+                        }
+
+                        else {
+
+                            return {
+
+                                x: Date.UTC(yyyy, mm, dd),
+
+                                y: d.actualValues,
+
+                                monthly_returns: d.monthly_returns,
+
+                                mothlyPercentageReturn: d.monthlyPercentageReturn,
+
+                                weeklyPercentageReturn: d.weeklyPercentageReturn,
+
+                                weeklyReturn: d.weeklyReturn
+
+                            }
+
+                        }
+
+                    }
+
+                    else {
+
+                        if (d.monthlyPercentageReturn > 0.98 || d.monthlyPercentageReturn < 0.02 && d.monthlyPercentageReturn !== 0) {
+
+                            return {
+
+                                x: Date.UTC(yyyy, mm, dd),
+
+                                y: d.actualValues,
+
+                                monthly_returns: d.monthly_returns,
+
+                                mothlyPercentageReturn: d.monthlyPercentageReturn,
+
+                                weeklyPercentageReturn: d.weeklyPercentageReturn,
+
+                                weeklyReturn: d.weeklyReturn,
+
+                                marker: {
+
+                                    symbol: 'diamond',
+
+                                    radius: 10,
+
+                                    fillColor: 'red'
+
+                                }
+
+                            }
+
+                        }
+
+                        else {
+
+                            return {
+
+                                x: Date.UTC(yyyy, mm, dd),
+
+                                y: d.actualValues,
+
+                                monthly_returns: d.monthly_returns,
+
+                                mothlyPercentageReturn: d.monthlyPercentageReturn,
+
+                                weeklyPercentageReturn: d.weeklyPercentageReturn,
+
+                                weeklyReturn: d.weeklyReturn
+
+                            }
+
+                        }
+
+                    }
+
+
+
+
+
+
+
+
+
+                })
+
+                //dayeData = data.map(d => d.dayofdate)
+
+                //console.log("data.dayeData===>", dayeData)
+
+
+
+                SeriesChartData = [{
+
+                    name: $("#SeriesName").val(),
+
+                    data: actualvalues
+
+                }]
+
+                console.log("SeriesChartData==>", SeriesChartData)
+
+                createChart();
+
+                refreshAntiForgeryToken();
+
+            },
+
+            error: function (i) {
+
+                ShowKendoNotification("@CommonResource.ErrorMsg", "error");
+
+            }
+
+        });
+
+    }
+
+
+
+
+
+
+
+
+
+    function select(e) {
+
+        console.log("here ===>", e)
+
+        var dropdownlist = $("#materialId").data("kendoDropDownList");
+
+        dropdownlist.select(e.item.index());
+
+
+
+        var multiselect = $("#SeriesName").data("kendoDropDownList");
+
+        multiselect.dataSource.read();
+
+        multiselect.enable(true);
+
+        refreshAntiForgeryToken();
+
+    };
+
+    function onAdditionalDataCostDriver() {
+
+        refreshAntiForgeryToken();
+
+        return {
+
+            materialId: $("#materialId").val(), __RequestVerificationToken: kendo.antiForgeryTokens().__RequestVerificationToken
+
+            //materialId: $("#materialId").val(),
+
+            //__RequestVerificationToken: kendo.antiForgeryTokens().__RequestVerificationToken
+
+        };
+
+    }
+
+
+
+
+
+
+
+</script>
+
+
+
+<!-- Screen-3 -->
+
+<div class="text-left h5 pl-3 mt-4">@DPPResource.MaterialInformationTableHeading</div>
+
+<div class="container-fluid mar-top-15 padding-0">
+
+    <div class="row margin-0">
+
+        <div class="col-md-12" id="ResultDiv" customId="Result Data">
+
+            <div id="divGrid">
+
+                @Html.AntiForgeryToken()
+
+                @(Html.Kendo().Grid<MateriaModel>()
+
+                .Name("gridMateriaModel")
+
+                .NoRecords(KendoGridExtention.NoRecords)
+
+                .Columns(columns =>
+
+                {
+
+                if (user.IsEnglish) // Other changes relatd to language etc... in progress
+
+                {
+
+                columns.Bound(c => c.materialID).Title(DPPResource.ColMaterialNumber).Filterable(false).Width("12%"); ;
+
+                columns.Bound(c => c.type).Title(DPPResource.ColType).Filterable(false).Width("10%");
+
+                columns.Bound(c => c.Description).Title(DPPResource.ColDescription).Filterable(false).Width("41%");
+
+                columns.Bound(c => c.Group).Title(DPPResource.ColGroup).Filterable(false).Width("12%");
+
+                columns.Bound(c => c.CLass).Title(DPPResource.ColClass).Filterable(false).Width("15%");
+
+                columns.Bound(c => c.Criticality).Title(DPPResource.ColCriticality).Filterable(false).Width("10%");
+
+                }
+
+                else
+
+                {
+
+                columns.Bound(c => c.materialID).Title(DPPResource.ColMaterialNumber).Filterable(false).Width("12%"); ;
+
+                columns.Bound(c => c.type).Title(DPPResource.ColType).Filterable(false).Width("10%");
+
+                columns.Bound(c => c.Description).Title(DPPResource.ColDescription).Filterable(false);
+
+                columns.Bound(c => c.Group).Title(DPPResource.ColGroup).Filterable(false).Width("12%");
+
+                columns.Bound(c => c.CLass).Title(DPPResource.ColClass).Filterable(false).Width("15%");
+
+                columns.Bound(c => c.Criticality).Title(DPPResource.ColCriticality).Filterable(false).Width("10%");
+
+                }
+
+                })
+
+                .HtmlAttributes(new { @class = "grid-height grid100" })
+
+                .Scrollable()
+
+                .Selectable(selectable => selectable.Mode(GridSelectionMode.Single)
+
+                .Type(GridSelectionType.Row)
+
+
+
+                )
+
+                .DataSource(dataSource => dataSource.Ajax().ServerOperation(false)
+
+                .Model(model => {model.Id(c => c.materialID);
+
+                })
+
+                .Read(read => read.Action("GetMaterialOptimizationData",
+                "DemandAnalysis").Type(HttpVerbs.Post).Data("GetDPPMateriaModelSearchCriteria"))
+
+                )
+
+                )
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<div class="card col-12 padding-0 " id="scr1">
+
+
+
+    <div class="px-5 ">
+
+        <div class="row mt-3">
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                @Html.AntiForgeryToken()
+
+                @Html.Label(DPPResource.CostDriverLabel, null, new { @class = "focus-input100" })
+
+                @(Html.Kendo().DropDownList()
+
+
+
+                .Name("materialId")
+
+                .Filter("startswith")
+
+                .OptionLabel("Select Cost Driver...")
+
+                //.Placeholder("Select Cost Driver...")
+
+                .DataSource(source =>
+
+                {
+
+                source.Read(read =>
+
+                {
+
+                read.Action("GetCostDriverMuiltiDropDown", "DemandAnalysis").Type(HttpVerbs.Post)
+
+                .Data("onAdditionalDataCostDriver");
+
+                })
+
+                .ServerFiltering(true);
+
+                })
+
+                .Events(e => e.Select("select"))
+
+
+
+                .HtmlAttributes(new { @class = "input1001", })
+
+                )
+
+            </div>
+
+            @*</div>
+
+                <div class="row mt-3">*@
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                @Html.AntiForgeryToken()
+
+                @Html.Label(DPPResource.SeriesNameLabel, null, new { @class = "focus-input100" })
+
+                @(Html.Kendo().DropDownList()
+
+                .Name("SeriesName")
+
+                .Filter("startswith")
+
+                .OptionLabel("Select Series Name...")
+
+                //.Placeholder("Select Series Name...")
+
+                //.Events(e => { e.Deselect("removeSeries").Select("selectSeries"); })
+
+
+
+                .DataSource(source =>
+
+                {
+
+                source.Read(read =>
+
+                {
+
+                read.Action("GetSeriesNameMultiDropDown", "DemandAnalysis").Type(HttpVerbs.Post)
+
+                .Data("onAdditionalDataCostDriver");
+
+                })
+
+                .ServerFiltering(true);
+
+                })
+
+                .Enable(false)
+
+                .CascadeFrom("materialId")
+
+                .HtmlAttributes(new { @class = "input1001", })
+
+
+
+                )
+
+
+
+            </div>
+
+
+
+            @*<div class="row mt-3 demo-section k-content">*@
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                @Html.Label("Select a Chart", null, new { @class = "focus-input100" })
+
+                @(Html.Kendo().DropDownList()
+
+                .Name("chart")
+
+                .DataTextField("Text")
+
+                .DataValueField("Value")
+
+                .Events(e=> e.Select("onTimeSelect"))
+
+                .HtmlAttributes(new { style = "width: 100%", @class = "input1001", })
+
+                .BindTo(new List<SelectListItem>()
+
+                {
+
+                new SelectListItem() {
+
+                Text = "Weekly", Value ="Weekly"
+
+                },
+
+                new SelectListItem() {
+
+                Text = "Monthly", Value ="Monthly"
+
+                },
+
+                })
+
+                )
+
+            </div>
+
+        </div>
+
+        <div class="row mt-3 mx-2">
+
+            <div class="col-12  text-left focus-input100">@Html.Label("Time Range", null, new { @class =
+                "focus-input100", style = "margin-left: -14px;" })</div>
+
+            @*<div class="col-12">*@
+
+            @Html.AntiForgeryToken()
+
+            @*@Html.Label("Select Dates", null, new { @class = "focus-input100" })*@
+
+            @(Html.Kendo().DatePicker()
+
+            .Name("startingDate")
+
+            .Format("MMM yyyy")
+
+            .Value("January 2020")
+
+            .Events(e => e.Change("startingDate"))
+
+            .HtmlAttributes(new { style = "width: 50%" })
+
+
+
+            )
+
+            @(Html.Kendo().DatePicker()
+
+            .Name("endDate")
+
+            //.Start(CalendarView.Year)
+
+            //.Depth(CalendarView.Year)
+
+            .Format("MMM yyyy")
+
+            .Value(DateTime.Now)
+
+            .Events(e => e.Change("endDate"))
+
+            .HtmlAttributes(new { style = "width: 50%" })
+
+
+
+            )
+
+            @* </div> *@
+
+
+
+        </div>
+
+
+
+        <div class="wrap-input100 validate-input text-right">
+
+            @*<button type="button" class="btn-secondary-ent" data-dismiss="modal"
+                onclick="cancel()">@ManageDisclaimerResource.Btn_Cancel</button>*@
+
+            <button type="button" class="ent-primary-btn-cyan mar-left-20" id="btnMlProcess"
+                onclick="getForcastChartdata();">@ManageDisclaimerResource.Btn_Submit</button>
+
+        </div>
+
+
+
+        <figure class="highcharts-figure">
+
+            <div id="alertChart"></div>
+
+        </figure>
+
+    </div>
+
+</div>
+
+
+
+
+
+<script>
+
+
+
+</script>
+
+
+
+@*<div class="container-fluid mar-top-15 padding-0 mt-5">
+
+    <div class="row margin-0">
+
+    <div class='tableauPlaceholder' style='width: 100%; height: 1250px;'>
+
+    <object class='tableauViz' width='100%' height='1250' style='display:none;'>
+
+    @Html.Raw(
+
+    HttpContext.Current.Items["TableauTwoParam"].ToString()
+
+    )
+
+    </object>
+
+    </div>
+
+    </div>
+
+    </div>*@

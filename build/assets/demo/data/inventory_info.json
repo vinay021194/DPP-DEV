@@ -1,0 +1,70 @@
+{
+    "Sheet2": [
+        {
+            "material": "7001733",
+            "plant": "1200",
+            "opening_stock": "0",
+            "openning_stock_uom": "TO",
+            "safety_stock": "0",
+            "warehouse_capacity": "0",
+            "safety_warehouse_uom": "NaN",
+            "overall_incoming_quantity": "0",
+            "on_route_curr_mon": "0"
+        },
+        {
+            "material": "7001733",
+            "plant": "1500",
+            "opening_stock": "9.37",
+            "openning_stock_uom": "TO",
+            "safety_stock": "55.34",
+            "warehouse_capacity": "166.01",
+            "safety_warehouse_uom": "TO",
+            "overall_incoming_quantity": "0",
+            "on_route_curr_mon": "0"
+        },
+        {
+            "material": "7001733",
+            "plant": "1800",
+            "opening_stock": "22",
+            "openning_stock_uom": "TO",
+            "safety_stock": "0",
+            "warehouse_capacity": "0",
+            "safety_warehouse_uom": "NaN",
+            "overall_incoming_quantity": "0",
+            "on_route_curr_mon": "0"
+        },
+        {
+            "material": "7001733",
+            "plant": "2000",
+            "opening_stock": "27.69",
+            "openning_stock_uom": "TO",
+            "safety_stock": "0",
+            "warehouse_capacity": "0",
+            "safety_warehouse_uom": "NaN",
+            "overall_incoming_quantity": "0",
+            "on_route_curr_mon": "0"
+        },
+        {
+            "material": "7001733",
+            "plant": "3300",
+            "opening_stock": "36.26",
+            "openning_stock_uom": "TO",
+            "safety_stock": "38.97",
+            "warehouse_capacity": "116.92",
+            "safety_warehouse_uom": "TO",
+            "overall_incoming_quantity": "121",
+            "on_route_curr_mon": "121"
+        },
+        {
+            "material": "7001733",
+            "plant": "4100",
+            "opening_stock": "12.63",
+            "openning_stock_uom": "TO",
+            "safety_stock": "0",
+            "warehouse_capacity": "0",
+            "safety_warehouse_uom": "NaN",
+            "overall_incoming_quantity": "0",
+            "on_route_curr_mon": "0"
+        }
+    ]
+}
