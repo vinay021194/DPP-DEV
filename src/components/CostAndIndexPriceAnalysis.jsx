@@ -477,7 +477,7 @@ export class CostAndIndexPriceAnalysis extends Component {
           </DataTable>
         </div>
 
-        <div style={{ display: "flex", margin: "5px 10px", float: "right" }}>
+        <div style={{ display: "flex", margin: "20px 10px", float: "right" }}>
           <Button
             label="Costdriver Analysis"
             style={{ margin: "5px 10px" }}
