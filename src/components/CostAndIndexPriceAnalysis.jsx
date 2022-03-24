@@ -494,32 +494,10 @@ export class CostAndIndexPriceAnalysis extends Component {
             }}
           />
         </div>
-        <div className="card">
-              <div style={{ display: "flex", margin: "5px 10px" }}>
-                <MultiSelect
-                  style={{ width: "49%", margin: "5px 10px" }}
-                  value={this.state.unit}
-                  options={this.unit}
-                  onChange={(e) => this.onUnit(e)}
-                  optionLabel="name"
-                  placeholder="Select Unit"
-                  display="chip"
-                />
-
-                <MultiSelect
-                  style={{ width: "49%", margin: "5px 10px" }}
-                  value={this.state.dataset}
-                  options={this.dataset}
-                  onChange={(e) => this.onDataSet(e)}
-                  optionLabel="name"
-                  placeholder="Select Data set"
-                  display="chip"
-                />
-              </div>
-              </div>
+        
         <div style={{ clear: "both" }}>
-          {!this.state.costdriverChart && (
-            
+      
+          {!this.state.costdriverChart && (     
             <div className="card">  
             
               <MultiSelect
@@ -542,6 +520,29 @@ export class CostAndIndexPriceAnalysis extends Component {
 
           {this.state.costdriverChart && (
             <div className="card">
+                <div className="car">
+              <div style={{ display: "flex", margin: "5px 10px" }}>
+                <MultiSelect
+                  style={{ width: "49%", margin: "5px 10px" }}
+                  value={this.state.unit}
+                  options={this.unit}
+                  onChange={(e) => this.onUnit(e)}
+                  optionLabel="name"
+                  placeholder="Select Unit"
+                  display="chip"
+                />
+
+                <MultiSelect
+                  style={{ width: "49%", margin: "5px 10px" }}
+                  value={this.state.dataset}
+                  options={this.dataset}
+                  onChange={(e) => this.onDataSet(e)}
+                  optionLabel="name"
+                  placeholder="Select Data set"
+                  display="chip"
+                />
+              </div>
+              </div>
               <div style={{ display: "flex", margin: "5px 10px" }}>
                 <MultiSelect
                   style={{ width: "49%", margin: "5px 10px" }}
