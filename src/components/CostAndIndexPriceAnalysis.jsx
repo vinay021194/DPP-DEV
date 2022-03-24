@@ -22,6 +22,8 @@ export class CostAndIndexPriceAnalysis extends Component {
       costDriverSeries: [],
       icisForecastSummaryTable: [],
       order: [],
+      dataset:[],
+      unit:[]
     };
 
     this.productService = new ProductService();
@@ -121,6 +123,34 @@ export class CostAndIndexPriceAnalysis extends Component {
         name: "HDPE Film Domestic FD EU no-data",
         code: "HDPE Film Domestic FD EU no-data",
       },
+    ];
+
+
+    this.dataset = [
+      {
+        name: "ICIS",
+        code: "ICIS",
+      },
+      {
+        name: "IHS",
+        code: "IHS",
+      },
+      
+     
+      
+    ];
+    this.unit = [
+      {
+        name: "cbm",
+        code: "CBM",
+      },
+      {
+        name: "mt",
+        code: "mt",
+      },
+      
+     
+      
     ];
   }
 
@@ -222,6 +252,15 @@ export class CostAndIndexPriceAnalysis extends Component {
     //console.log("onCostDriverChange event ====>", e);
     this.setState({ costDriver: e.value });
   };
+  onUnit = (e) => {
+    
+    this.setState({ unit: e.value });
+  };
+  onDataSet = (e) => {
+    
+    this.setState({dataset: e.value });
+  };
+
 
   render() {
     // const { order, icisAlertInfoData } = this.state;
@@ -455,9 +494,34 @@ export class CostAndIndexPriceAnalysis extends Component {
             }}
           />
         </div>
+        <div className="card">
+              <div style={{ display: "flex", margin: "5px 10px" }}>
+                <MultiSelect
+                  style={{ width: "49%", margin: "5px 10px" }}
+                  value={this.state.unit}
+                  options={this.unit}
+                  onChange={(e) => this.onUnit(e)}
+                  optionLabel="name"
+                  placeholder="Select Unit"
+                  display="chip"
+                />
+
+                <MultiSelect
+                  style={{ width: "49%", margin: "5px 10px" }}
+                  value={this.state.dataset}
+                  options={this.dataset}
+                  onChange={(e) => this.onDataSet(e)}
+                  optionLabel="name"
+                  placeholder="Select Data set"
+                  display="chip"
+                />
+              </div>
+              </div>
         <div style={{ clear: "both" }}>
           {!this.state.costdriverChart && (
-            <div className="card">
+            
+            <div className="card">  
+            
               <MultiSelect
                 style={{ width: "95%" }}
                 value={this.state.selectSerialName}
@@ -467,7 +531,6 @@ export class CostAndIndexPriceAnalysis extends Component {
                 placeholder="Select a Series"
                 display="chip"
               />
-
               <div style={{ width: "90%" }}>
                 <HighchartsReact
                   highcharts={Highcharts}
@@ -508,7 +571,9 @@ export class CostAndIndexPriceAnalysis extends Component {
                 />
               </div>
             </div>
+            
           )}
+          
         </div>
         <div className="card">
           <h4 style={{ fontWeight:"bolder", fontFamily:'revert' }}>Accuracy On Forcast Horizon-Monthly(percetage)</h4>
